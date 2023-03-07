@@ -54,6 +54,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-right: 130px;
 }
 
 .flexCol {
@@ -70,6 +71,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    margin-right: 0px;
   }
 }
 
@@ -103,7 +105,6 @@ th {
 .width300 {  width: 300px; }
 .margin10 { margin: 10px; }
 .margin20 { margin: 20px; }
-.marginRight90 { margin-right: 130px; }
 .marginLeft400 { margin-left: 400px; }
 .top40 { top: 40px; }
 .bottom30 { bottom: 30px; }
