@@ -1,5 +1,5 @@
 import React from 'react';
-import Text from './Text';
+import Text from '../general/Text';
 
 interface RangeSliderProps {
   range: number;
@@ -18,7 +18,7 @@ class RangeSlider extends React.Component<RangeSliderProps> {
           min={0} 
           max={range}
           onChange={(event) => onChange(parseInt(event.target.value))} />
-        <Text className='textCenter'>{currentTitle ?? ''}</Text>
+        <Text className='paragraph textCenter'>{currentTitle ?? ''}</Text>
       </div>
     );
   };

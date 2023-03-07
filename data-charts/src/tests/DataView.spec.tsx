@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import DataView from '../components/general/DataView';
+import DataView from '../components/charts/DataView';
 import { UnitData } from '../utils/interfaces';
 
 describe('DataView', () => {

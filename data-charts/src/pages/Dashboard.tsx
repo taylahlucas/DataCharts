@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '../components/layouts/Layout';
-import DataView from '../components/general/DataView';
-import CustomBarChart from '../components/general/CustomBarChart';
-import RangeSlider from '../components/general/RangeSlider';
+import DataView from '../components/charts/DataView';
+import CustomBarChart from '../components/charts/CustomBarChart';
+import RangeSlider from '../components/charts/RangeSlider';
 import { Data, UnitData, IndexedData } from '../utils/interfaces';
 import Button from '../components/general/Button';
 import { NavigateFunction } from 'react-router-dom';
