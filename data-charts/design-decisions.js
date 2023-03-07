@@ -20,6 +20,9 @@
  * 
  * 6. A logout button has been added to the Dashboard screen so the user can easily navigate between screens.
  * 
+ * 7. A global css file is used to avoid mulitple imports, it is designed to be reusable and to handle cases where the same
+ * style is used in mulitple cases.
+ * 
  * NOTE: React-google-charts is showing a warning in console regarding the load version.
  * This will not affect the bar chart being displayed. 
  */
