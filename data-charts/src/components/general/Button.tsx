@@ -1,25 +1,29 @@
 import React from 'react';
 
 interface ButtonProps {
-  children: string;
-  className: any;
-  disabled: boolean;
-}
+  title: string;
+  className?: string;
+  disabled?: boolean;
+  onClick: () => void;
+};
 
 class Button extends React.Component<ButtonProps> {
-  constructor(props: ButtonProps) {
-    super(props);
-  }
+  static defaultProps = {
+    disabled: false
+  };
 
   render() {
-    const { children, className, disabled } = this.props;
-
+    const { title, className, disabled, onClick } = this.props;
     return (
-      <button className={className} disabled={disabled}>
-        {children}
+      <button 
+        className={className} 
+        disabled={disabled} 
+        onClick={onClick}
+      >
+        {title}
       </button>
     );
-  }
+  };
 }
 
 export default Button;

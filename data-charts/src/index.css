@@ -3,15 +3,16 @@
   justify-content: center;
 }
 
-.login {
-  width: 300px;
+.layout {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .form {
+  width: 300px;
   background-color: royalblue;
   display: flex;
   flex-direction: column;
@@ -38,9 +39,61 @@
 }
 
 .button {
-  font-size: 18px;
-  font-family: 'Montserrat';
+  background-color: transparent;
+  outline: none;
+  border: 0;
 }
 
+.button:not([disabled]):hover {
+  color: royalblue;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataView {
+  width: 200px;
+  height: 150px;
+  border: 1px solid royalblue;
+}
+
+th, td {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  margin: 10;
+  text-align: center;
+}
+
+th {
+  font-style: italic;
+  font-weight: bolder;
+  color: grey;
+}
+
+.rangeSlider {
+  background-color: green;
+  margin: 0.4rem;
+  width: 300px;
+}
+
+.relative { position: fixed; }
 .textCenter { text-align: center; }
+.width300 {  width: 300px; }
 .margin10 { margin: 10px; }
+.margin20 { margin: 20px; }
+.marginRight90 { margin-right: 130px; }
+.marginLeft400 { margin-left: 400px; }
+.top40 { top: 40px; }
+.bottom30 { bottom: 30px; }
+.padding10 { padding: 10px; }

@@ -11,19 +11,13 @@ interface InputFieldProps {
 class InputField extends React.Component<InputFieldProps> {
   static defaultProps = {
     type: TextType.Regular
-  }
-
-  constructor(props: InputFieldProps) {
-    super(props);
-  }
+  };
 
   render() {
     const { placeholder, value, type, valueChanged } = this.props;
-
     return(
-      // eslint-disable-next-line jsx-a11y/no-autofocus
       <input 
-        className="formField"
+        className='formField paragraph'
         placeholder={placeholder} 
         value={value} 
         type={type === TextType.Password ? 'password' : 'text'}
@@ -31,7 +25,7 @@ class InputField extends React.Component<InputFieldProps> {
         autoComplete="current-password"
       />
     );
-  }
-}
+  };
+};
 
 export default InputField;

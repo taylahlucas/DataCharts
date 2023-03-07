@@ -1,8 +1,4 @@
-enum TextType {
+export enum TextType {
   Regular,
   Password
-}
-
-export {
-  TextType
-}
+};
