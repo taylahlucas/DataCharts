@@ -79,7 +79,7 @@ class Dashboard extends React.Component<DashboardProps, DashboardState> {
         <div className='flexCol padding10'>
           <div className='flexRow padding10 marginRight90'>
             <DataView data={currentItem?.attributes}/>
-            <CustomBarChart data={currentItem?.attributes ?? []}/>
+            <CustomBarChart data={currentItem?.attributes}/>
           </div>
           <RangeSlider
               range={data.length > 0 ? data.length - 1 : 0}

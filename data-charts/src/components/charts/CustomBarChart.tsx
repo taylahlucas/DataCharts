@@ -4,7 +4,7 @@ import { UnitData } from '../../utils/interfaces';
 import { chartXTitle, chartYTitle } from '../../utils/strings';
 
 interface CustomBarChartProps {
-  data: UnitData[];
+  data?: UnitData[];
 };
 
 const chartOptions = {
