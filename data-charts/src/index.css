@@ -4,6 +4,7 @@
 }
 
 .layout {
+  max-width: 1000px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -60,6 +61,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .flexRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
 }
 
 .dataView {
