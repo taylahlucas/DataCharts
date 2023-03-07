@@ -77,7 +77,7 @@ class Dashboard extends React.Component<DashboardProps, DashboardState> {
           className='relative button marginLeft400 bottom30 paragraph' onClick={this.onLogout} 
         />
         <div className='flexCol padding10'>
-          <div className='flexRow padding10 marginRight90'>
+          <div className='flexRow padding10'>
             <DataView data={currentItem?.attributes}/>
             <CustomBarChart data={currentItem?.attributes}/>
           </div>
