@@ -3,6 +3,8 @@ A simple user login form with a Dashboard containing charts which display releva
 
 Built using React and TypeScript
 
+To see design decisions, please see JSDoc design-decisions.js
+
 # Setup
 To setup the application, navigate to data-charts and enter the following commands in terminal.
 Please ensure Docker is running.
