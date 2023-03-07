@@ -17,4 +17,9 @@
  * 
  * 5. The /utility folder contains enums, interfaces, and strings which can be easily used throughout the app and changed
  * without requiring much effort, making the app easier to extend and change if needed.
+ * 
+ * 6. A logout button has been added to the Dashboard screen so the user can easily navigate between screens.
+ * 
+ * NOTE: React-google-charts is showing a warning in console regarding the load version.
+ * This will not affect the bar chart being displayed. 
  */
